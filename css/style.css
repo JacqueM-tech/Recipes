@@ -19,7 +19,6 @@ h1 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: #f16059;
-  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -27,6 +26,7 @@ h1 {
 header img {
   margin-right: 16px;
 }
+
 /***** MAIN *****/
 main {
   width: 1000px;
@@ -69,14 +69,14 @@ main {
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
   color: #f16059;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 29px;
+  line-height: 18px;
 }
 
 .time {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-width: 1px;
   border-style: solid;
   border-color: #3b3b3b;
@@ -112,6 +112,12 @@ main {
   font-family: 'Montserrat', sans-serif;
 }
 
+.description {
+  line-height: 18px;
+  margin-bottom: 3px;
+  
+}
+
 .columns {
   overflow: auto;
 }
@@ -132,7 +138,7 @@ main {
   border-width: 1px 0;
   border-style: solid;
   border-color: #3b3b3b;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
   color: #f16059;
@@ -141,13 +147,16 @@ main {
 
 .ingredients ul {
   padding-left: 15px;
-  line-height: 24px;
+  line-height: 18px;
   list-style-type: square;
+  font-size: 14px;
 }
 
 .directions ol {
   padding-left: 15px;
-  line-height: 22px;
+  line-height: 18px;
+  font-size: 14px;
+  padding-bottom: 20px;
 }
 
 /* ----------- Tablets larger than 768px wide ----------- */
